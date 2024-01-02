@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#toolbox {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+}
+
+.tool {
+    background-color: #ccc;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#canvas {
+    flex-grow: 1;
+    background-color: #fff;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #000;
+    padding: 20px;
+    cursor: move;
+}
